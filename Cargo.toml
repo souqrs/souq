@@ -14,3 +14,8 @@ name = "souq"
 path = "Source/Binary/souq.rs"
 
 [dependencies]
+unbug = { version = "0.2.0", features = ["enable"] }
+
+[features]
+default = []
+Debug = ["unbug/enable"]
