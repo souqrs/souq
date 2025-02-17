@@ -2,9 +2,6 @@
 name = "souq"
 path = "Source/Binary/souq.rs"
 
-[build]
-target-dir = "Target"
-
 [dependencies]
 unbug = { version = "0.4.0" }
 
@@ -13,7 +10,7 @@ default = []
 
 [lib]
 name = "souq"
-path = "Source/Library/main.rs"
+path = "Source/main.rs"
 
 [package]
 name = "souq"
